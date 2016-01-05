@@ -1,4 +1,4 @@
-package com.lanjiessh.base.ui;
+package com.lanjiessh.baselibs.ui;
 
 import android.support.v7.app.AppCompatActivity;
 

@@ -1,11 +1,9 @@
-package com.lanjiessh.base.utils;
+package com.lanjiessh.baselibs.utils;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
-import android.util.DisplayMetrics;
 
 
 /**

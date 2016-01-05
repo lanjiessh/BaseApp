@@ -1,9 +1,10 @@
-package com.lanjiessh.base.utils;
+package com.lanjiessh.baselibs.utils;
 
 import android.app.Activity;
 import android.view.View;
 
-import com.lanjiessh.base.annotation.FindView;
+
+import com.lanjiessh.baselibs.annotation.FindView;
 
 import java.lang.reflect.Field;
 

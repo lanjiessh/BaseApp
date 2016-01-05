@@ -1,4 +1,4 @@
-package com.lanjiessh.base.utils;
+package com.lanjiessh.baselibs.utils;
 
 import android.app.Activity;
 import android.content.ComponentName;

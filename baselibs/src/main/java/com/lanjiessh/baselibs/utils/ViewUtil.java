@@ -1,4 +1,4 @@
-package com.lanjiessh.base.utils;
+package com.lanjiessh.baselibs.utils;
 
 import android.graphics.drawable.Drawable;
 import android.view.View;

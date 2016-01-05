@@ -1,4 +1,4 @@
-package com.lanjiessh.base.widgets;
+package com.lanjiessh.baselibs.widgets;
 
 import android.text.TextPaint;
 import android.text.style.ClickableSpan;

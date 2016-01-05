@@ -1,4 +1,4 @@
-package com.lanjiessh.base.annotation;
+package com.lanjiessh.baselibs.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

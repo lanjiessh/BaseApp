@@ -1,4 +1,4 @@
-package com.lanjiessh.base.utils;
+package com.lanjiessh.baselibs.utils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -17,10 +17,10 @@ public class TimeUtil {
     public static String getDistanceTime(String createTime) {
 
         SimpleDateFormat dfs = new SimpleDateFormat("yyyy-MM-dd HH:mm");
-        java.util.Date begin = null;
+        Date begin = null;
         try {
             begin = dfs.parse(createTime);
-            java.util.Date nowTime = new Date();
+            Date nowTime = new Date();
             long between = (nowTime.getTime() - begin.getTime()) / 1000;  //除以1000是为了转换成秒
 
             long day = between / (24 * 3600);
@@ -49,10 +49,10 @@ public class TimeUtil {
     public static String getMonthTime(String createTime) {
 
         SimpleDateFormat dfs = new SimpleDateFormat("MM月dd日 HH:mm");
-        java.util.Date begin = null;
+        Date begin = null;
         try {
             begin = dfs.parse(createTime);
-            java.util.Date nowTime = new Date();
+            Date nowTime = new Date();
             long between = (nowTime.getTime() - begin.getTime()) / 1000;  //除以1000是为了转换成秒
 
             long day = between / (24 * 3600);

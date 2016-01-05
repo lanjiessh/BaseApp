@@ -1,4 +1,4 @@
-package com.lanjiessh.base.utils;
+package com.lanjiessh.baselibs.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
