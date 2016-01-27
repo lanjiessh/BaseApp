@@ -9,7 +9,7 @@ import android.net.NetworkInfo;
 
 
 /**
- * 网络工具类
+ * Network
  * Created by Vin on 2015/12/31.
  */
 public class NetworkUtil {
@@ -19,8 +19,7 @@ public class NetworkUtil {
 	}
 
 	/**
-	 * 判断网络是否连接
-	 * 
+	 *
 	 * @param context
 	 * @return
 	 */
@@ -42,7 +41,6 @@ public class NetworkUtil {
 	}
 
 	/**
-	 * 判断是否是wifi连接
 	 */
 	public static boolean isWifi(Context context) {
 		ConnectivityManager cm = (ConnectivityManager) context
@@ -55,7 +53,6 @@ public class NetworkUtil {
 	}
 	
 	/**
-	 * 判断是否是移动网络连接
 	 */
 	public static boolean isMobile(Context context) {
 		ConnectivityManager cm = (ConnectivityManager) context
@@ -68,7 +65,6 @@ public class NetworkUtil {
 	}
 
 	/**
-	 * 打开网络设置界面
 	 */
 	public static void openSetting(Activity activity) {
 		Intent intent = new Intent("/");

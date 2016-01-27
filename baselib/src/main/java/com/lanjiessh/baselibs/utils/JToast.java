@@ -4,7 +4,7 @@ import android.content.Context;
 import android.widget.Toast;
 
 /**
- * Toast工具类
+ * Toast
  * Created by Vin on 2015/12/31.
  */
 public class JToast {
@@ -17,8 +17,7 @@ public class JToast {
 	}
 
 	/**
-	 * 短时间显示Toast
-	 * 
+	 *
 	 * @param context
 	 * @param message
 	 */
@@ -28,8 +27,7 @@ public class JToast {
 	}
 
 	/**
-	 * 长时间显示Toast
-	 * 
+	 *
 	 * @param context
 	 * @param message
 	 */
@@ -39,8 +37,7 @@ public class JToast {
 	}
 
 	/**
-	 * 自定义显示Toast时间
-	 * 
+	 *
 	 * @param context
 	 * @param message
 	 * @param duration

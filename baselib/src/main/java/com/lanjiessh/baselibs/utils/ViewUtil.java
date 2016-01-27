@@ -6,14 +6,13 @@ import android.widget.TextView;
 
 
 /**
- * View工具类
+ * View tools
  *
  * Created by Vin on 2015/12/31.
  */
 public class ViewUtil {
 
     /**
-     * 设置View的GONE
      *
      * @param view
      * @param <V>
@@ -30,7 +29,6 @@ public class ViewUtil {
 
 
     /**
-     * 设置View的INVISIBLE
      *
      * @param view
      * @param <V>
@@ -46,7 +44,6 @@ public class ViewUtil {
     }
 
     /**
-     * 设置View的VISIBLE
      *
      * @param view
      * @param <V>
@@ -63,7 +60,6 @@ public class ViewUtil {
 
 
     /**
-     * 设置焦点
      *
      * @param view
      */
@@ -76,7 +72,6 @@ public class ViewUtil {
     }
 
     /**
-     * 输入框错误提示
      * @param view
      * @param error
      */
@@ -86,10 +81,9 @@ public class ViewUtil {
 
 
     /**
-     * 输入框错误提示
      * @param view
      * @param error
-     * @param indicator_input_error 修改默认错误icon
+     * @param indicator_input_error icon
      */
     public static void setError(TextView view, CharSequence error, int indicator_input_error) {
         if (error == null) {

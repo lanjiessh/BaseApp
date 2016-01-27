@@ -7,7 +7,7 @@ import android.content.pm.PackageManager.NameNotFoundException;
 
 
 /**
- * App版本信息工具类
+ * App Tools
  * Created by Vin on 2015/12/31.
  */
 public class AppVersionUtil {
@@ -36,7 +36,7 @@ public class AppVersionUtil {
 
 	/**
 	 * @param context
-	 * @return 返回versionName
+	 * @return versionName
 	 */
 	public static String getVersionName(Context context) {
 		try {

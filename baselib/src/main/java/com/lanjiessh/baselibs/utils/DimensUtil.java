@@ -4,7 +4,6 @@ import android.content.Context;
 import android.util.TypedValue;
 
 /**
- * 单位转化工具类
  * Created by Vin on 2015/12/31.
  */
 public class DimensUtil {
@@ -14,7 +13,7 @@ public class DimensUtil {
         throw new UnsupportedOperationException("cannot be instantiated");
     }
     /**
-     * dp转px
+     * dp to px
      *
      * @param context
      * @param dpVal
@@ -25,7 +24,7 @@ public class DimensUtil {
                 dpVal, context.getResources().getDisplayMetrics());
     }
     /**
-     * sp转px
+     * sp to px
      *
      * @param context
      * @param spVal
@@ -36,7 +35,7 @@ public class DimensUtil {
                 spVal, context.getResources().getDisplayMetrics());
     }
     /**
-     * px转dp
+     * px to dp
      *
      * @param context
      * @param pxVal
@@ -47,7 +46,7 @@ public class DimensUtil {
         return (pxVal / scale);
     }
     /**
-     * px转sp
+     * px to sp
      *
      * @param context
      * @param pxVal

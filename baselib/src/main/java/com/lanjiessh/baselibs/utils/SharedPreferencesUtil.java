@@ -12,7 +12,7 @@ import java.util.Set;
 
 
 /**
- * SharedPreferences工具类  必须在application进行初始化
+ * SharedPreferences  must be init application
  * Created by Vin on 2015/12/31.
  */
 public class SharedPreferencesUtil {
@@ -23,7 +23,6 @@ public class SharedPreferencesUtil {
 
 
     /**
-     * 在application调用进行初始化
      * @param mContext
      */
     public void init(Context mContext){

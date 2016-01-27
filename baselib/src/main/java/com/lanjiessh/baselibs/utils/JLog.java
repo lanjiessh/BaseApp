@@ -3,12 +3,12 @@ package com.lanjiessh.baselibs.utils;
 import android.util.Log;
 
 /**
- * 日志类
+ * Log
  * Created by Vin on 2015/12/31.
  */
 public class JLog {
 
-	public static boolean isDebug = true;// 是否需要打印bug，可以在application的onCreate函数里面初始化
+	public static boolean isDebug = true;
 	private static final String TAG = "----lanjie----";
 	
 	private JLog() {
@@ -16,7 +16,6 @@ public class JLog {
 		throw new UnsupportedOperationException("cannot be instantiated");
 	}
 
-	// 下面四个是默认tag的函数
 	public static void i(String msg) {
 		if (isDebug)
 			Log.i(TAG, msg);
@@ -42,7 +41,6 @@ public class JLog {
 			Log.w(TAG, msg);
 	}
 
-	// 下面是传入自定义tag的函数
 	public static void i(String tag, String msg) {
 		if (isDebug)
 			Log.i(tag, msg);

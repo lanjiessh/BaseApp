@@ -30,5 +30,6 @@ proguard/
 #MacOSX Files
 .DS_Store
 *.iml
+command
 
 import-summary.txt

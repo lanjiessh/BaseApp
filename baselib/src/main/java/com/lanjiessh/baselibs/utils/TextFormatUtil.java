@@ -4,13 +4,13 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * 字符验证工具
+ * String
  * Created by Vin on 2015/12/31.
  */
 public class TextFormatUtil {
 
 	/**
-	 * 判断是否是数字
+	 * is number
 	 * 
 	 * @param str
 	 * @return
@@ -31,7 +31,7 @@ public class TextFormatUtil {
 	}
 
 	/**
-	 * 时间格式，去-
+	 * format delete"-"
 	 * 
 	 * @param date
 	 * @return
@@ -46,7 +46,7 @@ public class TextFormatUtil {
 	}
 
 	/**
-	 * 判断是否是数字和"*"号组成的
+	 * is number and "*"
 	 * 
 	 * @param str
 	 * @return
@@ -64,28 +64,9 @@ public class TextFormatUtil {
 		return false;
 	}
 
-	/**
-	 * 判断是否是数字和"*"和“-”号组成的
-	 * 
-	 * @param str
-	 * @return
-	 */
-	public static boolean isJustDigitStar1(String str) {
-		int len = 0;
-		for (int idx = 0; idx < str.length(); idx++) {
-			if (Character.isDigit(str.charAt(idx)) || str.charAt(idx) == '*'
-					|| str.charAt(idx) == '-') {
-				len++;
-			}
-		}
-		if (len == str.length()) {
-			return true;
-		}
-		return false;
-	}
 
 	/**
-	 * 判断字符长度
+	 * length
 	 * 
 	 * @param s
 	 * @param charNum
@@ -108,8 +89,7 @@ public class TextFormatUtil {
 	}
 
 	/**
-	 * 判断中英文字符长度
-	 * 
+	 *
 	 * @return
 	 */
 	public static boolean CheckStrType(String str) {
@@ -128,8 +108,8 @@ public class TextFormatUtil {
 	}
 
 	/**
-	 * 邮箱验证
-	 * 
+	 * mail address
+	 *
 	 * @param str
 	 * @return
 	 */
@@ -144,8 +124,8 @@ public class TextFormatUtil {
 	}
 
 	/**
-	 * 日期验证
-	 * 
+	 * is date
+	 *
 	 * @param strDate
 	 * @return
 	 */
@@ -161,7 +141,7 @@ public class TextFormatUtil {
 	}
 
 	/**
-	 * 手机号码验证
+	 * is phone
 	 * 
 	 * @param phonenum
 	 * @return
@@ -177,7 +157,7 @@ public class TextFormatUtil {
 	}
 
 	/**
-	 * 身份证号码验证
+	 *  identity card
 	 * 
 	 * @param strID
 	 * @return
@@ -194,7 +174,7 @@ public class TextFormatUtil {
 	}
 
 	/**
-	 * 详细地址验证
+	 * address
 	 * 
 	 * @param address
 	 * @return
@@ -227,56 +207,10 @@ public class TextFormatUtil {
 		}
 	}
 
-	/**
-	 * 除了“|”不能输和全部都是空格以外，其他的内容都可以通过
-	 * 
-	 * @param name
-	 * @return
-	 */
-	public static boolean isdouhao(String name) {
-		int aa = name.indexOf("|");
-		if (aa >= 0) {
-			return false;
-		} else {
-			return true;
-		}
-	}
 
 	/**
-	 * 是否有逗号
-	 * 
-	 * @param name
-	 * @return
-	 */
-	public static boolean isdouhao1(String name) {
-		int aa = name.indexOf("|");
-		int bb = name.indexOf(" ");
-		if (aa >= 0 && bb >= 0) {
-			return false;
-		} else {
-			return true;
-		}
-	}
-
-	/**
-	 * 只能有一个“*”
-	 * 
-	 * @param str
-	 * @return
-	 */
-	public static boolean xinhao(String str) {
-
-		String[] arrg = str.split("\\*");
-		if (arrg.length > 2) {
-			return false;
-		} else {
-			return true;
-		}
-	}
-
-	/**
-	 * 汉字验证
-	 * 
+	 * Chinese
+	 *
 	 * @param name
 	 * @return
 	 */
@@ -296,8 +230,7 @@ public class TextFormatUtil {
 	}
 
 	/**
-	 * 英文姓名验证
-	 * 
+	 *
 	 * @param english
 	 * @return
 	 */
@@ -312,8 +245,7 @@ public class TextFormatUtil {
 	}
 
 	/**
-	 * 数字验证
-	 * 
+	 *
 	 * @param number
 	 * @return
 	 */
@@ -328,8 +260,7 @@ public class TextFormatUtil {
 	}
 
 	/**
-	 * 不能全是000
-	 * 
+	 *
 	 * @param number
 	 * @return
 	 */
@@ -344,8 +275,7 @@ public class TextFormatUtil {
 	}
 
 	/**
-	 * 判断给定字符串是否空白串。 空白串是指由空格、制表符、回车符、换行符组成的字符串 若输入字符串为null或空字符串，返回true
-	 * 
+	 *
 	 * @param input
 	 * @return boolean
 	 */

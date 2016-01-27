@@ -10,13 +10,12 @@ import java.io.IOException;
 
 
 /**
- * Bitmap工具类
+ * Bitmap Tools
  * Created by Vin on 2015/12/31.
  */
 public class BitmapUtil {
 
     /**
-     * 根据path返回bitmap对象
      *
      * @param path
      * @return

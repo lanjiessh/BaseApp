@@ -6,14 +6,11 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
 /**
- * 键盘工具类
  * Created by Vin on 2015/12/31.
  */
 public class KeyBoardUtil {
 
     /**
-     * 显示软键盘(Activity)
-     *
      * @param activity
      */
     public static void showSoftInput(final Activity activity) {
@@ -28,8 +25,6 @@ public class KeyBoardUtil {
     }
 
     /**
-     * 显示软键盘(View)
-     *
      * @param view
      */
     public static void showSoftInput(final View view) {
@@ -43,8 +38,6 @@ public class KeyBoardUtil {
     }
 
     /**
-     * 隐藏软键盘(Activity)
-     *
      * @param activity
      */
     public static void hideSoftInput(final Activity activity) {
@@ -55,7 +48,6 @@ public class KeyBoardUtil {
     }
 
     /**
-     * 隐藏软键盘(View)
      *
      * @param view
      */
