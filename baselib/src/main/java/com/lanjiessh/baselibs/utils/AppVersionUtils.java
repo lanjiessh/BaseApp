@@ -7,18 +7,19 @@ import android.content.pm.PackageManager.NameNotFoundException;
 
 
 /**
- * App Tools
+ * 版本工具类
  * Created by Vin on 2015/12/31.
  */
-public class AppVersionUtil {
-	private AppVersionUtil() {
+public class AppVersionUtils {
+	private AppVersionUtils() {
 		/** cannot be instantiated **/
 		throw new UnsupportedOperationException("cannot be instantiated");
 
 	}
 
 	/**
-	 * @param context
+	 *
+	 * @param context //
 	 * @return 返回versionCode
 	 *
 	 */
@@ -35,7 +36,7 @@ public class AppVersionUtil {
 	}
 
 	/**
-	 * @param context
+	 * @param context //
 	 * @return versionName
 	 */
 	public static String getVersionName(Context context) {
